@@ -1,6 +1,7 @@
-.logo {
-    width:200px;
 
+.logo {
+    width:170px;
+    margin-left: 10px;
 }
 
 .nav-list { 
@@ -10,4 +11,45 @@
 .intro {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+}
+
+.navbar1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border-style: solid !important;
+    border-bottom-width: 5px !important;
+}
+
+/*Calculator project*/
+.calculatorp {
+    background-color: #f5f5f5;
+    height: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculatorp:hover .desc,
+.calculatorp:focus .desc {
+    opacity: 1;
+}
+
+/* opacity 0.01 for accessibility */
+/* adjust the styles like height,padding to match your design */
+.calculatorp .desc {
+    opacity: 0.00;
+    min-height: 355px;
+    font-size: 25px;
+    height: 100%;
+    padding: 30px 25px 20px;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
 }
